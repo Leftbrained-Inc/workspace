@@ -1,9 +1,0 @@
-{
-  "accentColor": "#efd96b",
-  "theme": "system",
-  "textFontFamily": "Times New Roman,Inter",
-  "interfaceFontFamily": "Inter",
-  "enabledCssSnippets": [
-    "gost"
-  ]
-}
