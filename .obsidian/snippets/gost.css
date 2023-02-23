@@ -1,0 +1,75 @@
+body {
+        font-family: 'Times New Roman';
+        font-size: 14pt;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    h1, h3, h4 {
+        font-size: 14pt;
+        font-weight: 800;
+        border-bottom: none;
+        text-indent: 1.25cm;
+        line-height: 1.5;
+    }
+    p {
+        text-indent: 1.25cm;
+        line-height: 1.5;
+    }
+
+    h2{ 
+        font-size: 14pt;
+        font-weight: 800;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    ul.toc {
+        list-style: none;
+    }
+
+    li:before {
+        white-space: nowrap;
+        float: left;
+        width: 0;
+    }
+
+    li.toc {
+        clear: both;
+    }
+
+    ul.toc span + span {
+        float: right;
+        padding-left: 0.33em;
+    }
+
+    ul.toc span:first-child {
+        padding-right: 0.33em;
+    }
+
+    .dot-leader {
+    /* Center the content */
+    display: flex;
+    justify-content: center;
+}
+
+    .dot-leader__dots {
+    /* Bottom border */
+    border-bottom: 3px dotted #000;
+
+    /* Take remaining width */
+    flex: 1;
+
+    /* Spacing */
+    margin: 0.5rem;
+}
+
+code {
+    font-size: 12px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
