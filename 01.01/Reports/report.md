@@ -1,6 +1,6 @@
 <style>
     body {
-        font-family: 'Times New Roman';
+        font-family: 'Times New Roman', serif;
         font-size: 14pt;
         line-height: 1.5;
         text-align: justify;
@@ -166,7 +166,7 @@ public class Main {
 **Задание 4.** Создать собственный класс (классы) в соответствии с вариантом, полученным в лабораторной работе по С# (Создание классов).
 
 **Индивидуальный вариант:** 10 вариант
-<img src="/image/report/1677164001824.png">
+<img src="image\report\1677164001824.png">
 
 <br>
 
