@@ -1,103 +1,20 @@
-<style>
-    body {
-        font-family: 'Times New Roman', serif;
-        font-size: 14pt;
-        line-height: 1.5;
-        text-align: justify;
-    }
-
-    h1, h3, h4 {
-        font-size: 14pt;
-        font-weight: 800;
-        border-bottom: none;
-        text-indent: 1.25cm;
-        line-height: 1.5;
-    }
-    p {
-        text-indent: 1.25cm;
-        line-height: 1.5;
-    }
-
-    h2{ 
-        font-size: 14pt;
-        font-weight: 800;
-        text-align: center;
-        line-height: 1.5;
-    }
-
-    ul.toc {
-        list-style: none;
-    }
-
-    li:before {
-        white-space: nowrap;
-        float: left;
-        width: 0;
-    }
-
-    li.toc {
-        clear: both;
-    }
-
-    ul.toc span + span {
-        float: right;
-        padding-left: 0.33em;
-    }
-
-    ul.toc span:first-child {
-        padding-right: 0.33em;
-    }
-
-    .dot-leader {
-    /* Center the content */
-    display: flex;
-    justify-content: center;
-}
-
-    .dot-leader__dots {
-    /* Bottom border */
-    border-bottom: 3px dotted #000;
-
-    /* Take remaining width */
-    flex: 1;
-
-    /* Spacing */
-    margin: 0.5rem;
-}
-
-code {
-    font-size: 12px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-}
-
-</style>
 
 $$
-\begin{gather*} 
-\Large{ГУАП} \\ ФАКУЛЬТЕТ\ СРЕДНЕГО\ ПРОФЕССИОНАЛЬНОГО\  ОБРАЗОВАНИЯ\end{gather*}\\\ \\\ \\\ \\\ 
-\begin{matrix} 
-    \begin{aligned}
-    &\text{ОТЧЁТ} & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &  \\
-    &\text{ЗАЩИЩЁН С ОЦЕНКОЙ}\\
-    &\text{ПРЕПОДАВАТЕЛЬ}
-    \end{aligned}
- \end{matrix} \\\ \\\ \\\
-{ \text{преподаватель} \above{1pt} \text{должность,\ уч.\ степень,\ звание} } \quad {\above{1pt} подпись,\ дата} \quad {\text{И. А. Юрьева} \above{1pt} инициалы,\ фамилия} \\\ \\\ \\\ \\\ \\\ \\\ \text{ОТЧЁТЫ О ЛАБОРАТОРНЫХ РАБОТАХ} \\\ \\\ \\\ \\\ \text{по дисциплине: МДК 01.01} \\\ \\\ \\\ \\\ 
-
-\begin{matrix} 
-    \begin{aligned}
-    &\text{РАБОТУ ВЫПОЛНИЛ} & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &  \\
-    &\text{СТУДЕНТ ГР. №}
-    \end{aligned}
- \end{matrix}\\\ \\\
- \begin{gather*}
- { \text{С021}\above{1pt} \quad \quad \quad \quad \quad \quad } \quad {\above{1pt} \text{подпись, дата}} \quad {\text{С. С. Гамуйло} \above{1pt} \text{инициалы, фамилия}}
- \end{gather*}
+\Large{\text{ГУАП}} \\
+\text{ФАКУЛЬТЕТ СРЕДНЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ} \\ \\ \\
+\begin{aligned}
+&\text{ОТЧЁТ} & & & & & & & & & & & & & & & & & \\
+&\text{ЗАЩИЩЁН С ОЦЕНКОЙ}\\
+&\text{ПРЕПОДАВАТЕЛЬ}
+\end{aligned} \\ \\ 
+{\text{преподаватель} \above{1pt} \text{должность, уч. степень, звание} } \quad {\above{1pt} \text{подпись, дата}} \quad { \text{И. А. Юрьева}\above{1pt} \text{инициалы, фамилия}} \\ \\ \\ \\
+\text{ОТЧЁТЫ О ЛАБОРАТОРНЫХ РАБОТАХ} \\ \\
+\text{по дисциплине: МДК 01.03} \\ \\
+\begin{aligned}
+&\text{РАБОТУ ВЫПОЛНИЛ} & & & & & & & & & & & & & & & & & & \\
+&\text{СТУДЕНТ ГР. №}
+\end{aligned} \\
+{ \text{С021}\above{1pt} \quad \quad \quad \quad \quad \quad } \quad {\above{1pt} \text{подпись, дата}} \quad { \text{С. С. Гамуйло} \above{1pt} \text{инициалы, фамилия}}
 $$
 <div style="page-break-after: always;"></div>
 
@@ -158,17 +75,19 @@ public class Main {
 }
 ```
 
-<img src="image/report/1677163495701.png"/>
-<div style="text-align: center;">Рисунок 1 - Результат работы программы №1</div>
+<img src="assets/1677163495701.png"/>
+
+<div class="counter">Результат работы программы №1</div>
 
 <br>
 
 **Задание 4.** Создать собственный класс (классы) в соответствии с вариантом, полученным в лабораторной работе по С# (Создание классов).
 
 **Индивидуальный вариант:** 10 вариант
-<img src="image\report\1677164001824.png">
 
-<br>
+<img src="assets/1677164001824.png">
+
+
 
 Код программы №2:
 
@@ -341,24 +260,28 @@ public class MatrixTest {
 }
 ```
 
-<img src="image/report/1677164144018.png">
-<div style="text-align: center;">Рисунок 2 - Результат работы программы №2</div>
+<img src="assets/1677164144018.png">
 
-<br>
+<div class="counter">Результат работы программы №2</div>
+
+
 
 **Задание 5.** Выполнить компиляцию и запуск приложения Java с помощью командной строки.
 
-<br>
 
-<img src="image/report/1677164199324.png">
-<div style="text-align: center;">Рисунок 3 - Выполненные команды компиляции</div>
 
-<br>
+<img src="assets/1677164199324.png">
 
-<img src="image/report/1677164255912.png">
-<div style="text-align: center;">Рисунок 4 - Скомпилированный файл .class</div>
+<div class="counter">Выполненные команды компиляции</div>
 
-<br>
 
-<img src="image/report/1677164295692.png">
-<div style="text-align: center;">Рисунок 5 - Запуск скомпилированного файла</div>
+
+<img src="assets/1677164255912.png">
+
+<div class="counter">Скомпилированный файл .class</div>
+
+
+
+<img src="assets/1677164295692.png">
+
+<div class="counter">Запуск скомпилированного файла</div>
